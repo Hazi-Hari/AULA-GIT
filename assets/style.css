@@ -1,0 +1,60 @@
+@font-face {
+    font-family:brander;
+    src: url(./Fontes/Brandenburg.ttf);
+}
+
+@font-face {
+    font-family:brushstory;
+    src: url(./Fontes/BrushStory.otf);
+}
+
+@font-face {
+    font-family:depressed;
+    src: url(./Fontes/FEELING\ DEPRESSED.otf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 3.2rem;
+    font-family: depressed;
+    font-weight:10;
+    color: rgb(7, 66, 145);
+    text-shadow: .2rem .2rem .5rem red;
+}
+
+body{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-image:linear-gradient(to right ,rgb(148, 0, 0), black, rgb(7, 0, 105))
+}
+
+/*=======================configurações gerais========================*/
+
+.perfil{
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.conteudo{
+    background-color: rgb(190, 133, 133);
+    box-shadow: .2rem .2rem .4rem rgb(126, 5, 45) ;
+    padding: 4rem;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+
+}
